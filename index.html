@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form class="input-container">
+      <input type="text" placeholder="name or id"> <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg></button>
+    </form>
+    <span class="error">Not found :(</span>
+    <div class="pokemon-container">
+      <div class="pokemon-img-container">
+        <img class="pokemon-img" src="" alt="">
+      </div>
+      <span class="pokemon-id"></span>
+      <h2 class="pokemon-name"></h2>
+    </div>
+    <div class="buttons">
+      <button class="prev">Prev</button>
+      <button class="next">Next</button>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
